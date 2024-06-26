@@ -8,7 +8,7 @@ let shoppingcard = [
     Rating: [1, 2, 3, 4, 5],
     button: "ADD TO CART",
     Discount: "Discount 20% OFF",
-    image: "./speaker.png",
+    image: "./image/laptop.jpeg",
   },
   {
     Name: "Apple Watch",
@@ -18,7 +18,7 @@ let shoppingcard = [
     Rating: [1, 2, 3, 4, 5],
     button: "ADD TO CART",
     Discount: "Discount 20% OFF",
-    image: "./watch.png",
+    image: "./image/laptop.jpeg",
   },
   {
     Name: "Addidas Shoe",
@@ -28,7 +28,7 @@ let shoppingcard = [
     Rating: [1, 2, 3, 4, 5],
     button: "ADD TO CART",
     Discount: "Discount 20% OFF",
-    image: "./shoe.png",
+    image: "./image/laptop.jpeg",
   },
   {
     Name: "Monitor",
@@ -38,7 +38,7 @@ let shoppingcard = [
     Rating: [1, 2, 3, 4, 5],
     button: "ADD TO CART",
     Discount: "Discount 20% OFF",
-    image: "./monitor.png",
+    image: "./image/laptop.jpeg",
   },
   {
     Name: "Macbook",
@@ -48,7 +48,7 @@ let shoppingcard = [
     Rating: [1, 2, 3, 4, 5],
     button: "ADD TO CART",
     Discount: "Discount 20% OFF",
-    image: "./mac.png",
+    image: "./image/laptop.jpeg",
   },
 ];
 let display = document.getElementById("nameid");
@@ -73,6 +73,8 @@ shoppingcard.map((value, index) => {
 <h1>${value.Name}</h1>
 </div>
  
+
+
 <div class="details">
 <p>${value.Details}</p>
 </div>
